@@ -5,4 +5,4 @@ Url ayakta değil ya da hatalı ise log exception atar ve ilglili tabloya yazıl
 Mail configusayonu appsetting.json dosyasında kendinize göre değiştirip mail alabilirsiniz
 
 
-Uygulama Entity Framework Code first yazıldığı için Nuget Packege Manager Consol üzeriden update-dabase komutunu çalıştırarak projenin veri tabanını oluşturun
+Uygulama Entity Framework Code first yazıldığı için Nuget Packege Manager Consol üzeriden update-database komutunu çalıştırarak projenin veri tabanını oluşturun
