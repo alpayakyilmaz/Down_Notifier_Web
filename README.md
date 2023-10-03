@@ -6,3 +6,7 @@ Mail configusayonu appsetting.json dosyasında kendinize göre değiştirip mail
 
 
 Uygulama Entity Framework Code first yazıldığı için Nuget Packege Manager Consol üzeriden update-database komutunu çalıştırarak projenin veri tabanını oluşturun
+
+Uygulama girilen Uri bilgisini sürekli dinler ve uygulamanın bilgilerini belirlenen aralıkta HealthCheckLogs tablosuna yazar ancak ayakta olmayan ya da yanlış girilmiş Uri bilgisi varsa ya da status code 200 değilse 
+bunu yine aynı tabloya yazmak ile birikte HealthCheckMailLogs tablsuna hatalı Url bilgisini yazar ve mail atar 
+
